@@ -1,6 +1,6 @@
-# require libraries/modules here
-require 'pry'
 require 'nokogiri'
+require 'open-uri'
+require 'pry'
 
 def create_project_hash
   hash = {}
